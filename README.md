@@ -7,6 +7,7 @@ This repository contains files with Python-code used to web scrapping hydroclima
   * For chrome visit : https://chromedriver.chromium.org/home
   * For Mozilla visit: https://firefox-source-docs.mozilla.org/testing/geckodriver/
 - An Excel files with the following columns:
+
  | CODIGO | DEPARTAMENTO | MUNICIPIO |
  | -------| ------------ |-----------|
  | Conten |    Conten    |   Conten  | 
