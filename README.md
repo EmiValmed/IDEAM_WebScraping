@@ -2,13 +2,14 @@
 
 This repository contains files with Python-code used to web scrapping hydroclimate data from the IDEAM (Instituto de Hidrología, Meteorología y Estudios Ambientales), Colombia. The following gives a brief description of the individual files and how to use them.
 
-# Required files
-- A WebDriver: to drive a browser natively. This tool allow us automated testing of webapps across many browsers. It provides capabilities for navigating to web pages, user input, JavaScript execution, and more. Be sure to download the version that is compatible with your browser.
-  * For chrome visit : https://chromedriver.chromium.org/home
-  * For Mozilla visit: https://firefox-source-docs.mozilla.org/testing/geckodriver/
-- An Excel files with the following columns:
+## Required files
+- **A WebDriver**: to drive a browser natively. This tool allow us automated testing of webapps across many browsers. It provides capabilities for navigating to web pages, user input, JavaScript execution, and more. Be sure to download the version that is compatible with your browser.
+  * For chrome click [here](https://chromedriver.chromium.org/home).
+  * For Mozilla click [here](https://firefox-source-docs.mozilla.org/testing/geckodriver/).
+ 
+- **An Excel file** with the following columns:
 
- | CODIGO | DEPARTAMENTO | MUNICIPIO |
+ | **CODIGO** | **DEPARTAMENTO** | **MUNICIPIO** |
  | -------| ------------ |-----------|
  | Conten |    Conten    |   Conten  | 
 
