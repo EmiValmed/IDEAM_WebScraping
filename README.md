@@ -33,7 +33,7 @@ The input document extension must be in .xls or .xlsx. The file name must follow
  * All the information on the website is in Spanish, be sure to write the variable names and their description correctly. Otherwise, the program will display an error.  
  * You must have an .xls file for each description. The website is configured to select one description and variable at a time, so the name of the Excel file should only contain one.
        * Incorrects: 16-02-2020_17-02-2020_PRECIPITACION_Día pluviométrico_Precipitación total diaria.xls
-                     16-02-2020_17-02-2020_PRECIPITACION_CAUDAL_Día pluviométrico_Caudal medio diario.xls
+       *             16-02-2020_17-02-2020_PRECIPITACION_CAUDAL_Día pluviométrico_Caudal medio diario.xls
  * Only ten inquiries can be made per request. Therefore, the number of stations in the Excel document should not exceed this amount.
  
 ## Functions
