@@ -19,8 +19,8 @@ from selenium.webdriver.support import expected_conditions as EC
 ######################################################################################################################################################
 
 # Directories
-dirout = r"C:\path\output folder"
-chrome_path = r"C:\path of the\chromedriver.exe"
+dirout = r"C:\path\output folder"                # To modify
+chrome_path = r"C:\path of the\chromedriver.exe" # To modify
 
 # Web browser (Chrome) preference
 chrome_options = Options()
