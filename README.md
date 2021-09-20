@@ -1,4 +1,4 @@
-# IDEAM_WebScraping
+# IDEAM_WebScraping :umbrella: :sunny: :cloud:
 
 This repository contains files with Python-code used to download hydroclimate historical series from the [IDEAM](http://dhime.ideam.gov.co/atencionciudadano/) (Instituto de Hidrología, Meteorología y Estudios Ambientales), Colombia. The following gives a brief description of the individual files:
 
@@ -32,7 +32,7 @@ The input document extension must be in .xls or .xlsx. The file name must follow
  * This file does not necessarily have to be in the same folder as the functions.
  * All the information on the web site is in Spanish, be sure to write correctly the variable names and their description. Otherwise, the program will display an error.  
  * You must have an .xls file for each description. The website is configured to select one description and variable at a time, so the name of the Excel file should only contain one.
-     * Incorrects: 16-02-2020_17-02-2020_PRECIPITACION_Día pluviométrico_Precipitación total diaria.xls
+       Incorrects: 16-02-2020_17-02-2020_PRECIPITACION_Día pluviométrico_Precipitación total diaria.xls
                     16-02-2020_17-02-2020_PRECIPITACION_CAUDAL_Día pluviométrico_Caudal medio diario.xls
  * Only 10 inquiries can be made per request. Therefore, the number of stations in the Excel document should not exceed this amount.
  
@@ -45,5 +45,8 @@ The input document extension must be in .xls or .xlsx. The file name must follow
 ## List of varibales and descriptors
 The file **ListVariablesAndDescriptions.md** contins some variables with their descriptions. If you are interested in other variables, you can visit the [IDEAM](http://dhime.ideam.gov.co/atencionciudadano/) website and check the different options. 
 
-> **NOTE:** The function is stillin progress
+***
+> **NOTE:** The function works well, but is still in progress. Feel free to contact me if you want to contribute or if you find any bug :simple_smile:
 
+## Contact
+You can contact me at emixi-sthefany.valdez-medina.1@ulaval.ca :e-mail:
