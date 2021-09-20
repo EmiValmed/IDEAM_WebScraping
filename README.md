@@ -47,7 +47,7 @@ The input document extension must be in .xls or .xlsx. The file name must follow
 The file **ListVariablesAndDescriptions.md** contains some variables with their descriptions. If you are interested in other variables, you can visit the [IDEAM](http://dhime.ideam.gov.co/atencionciudadano/) website and check the different options. 
 
 ***
-> **NOTE:** The function works well, but is still in progress. Feel free to contact me if you want to contribute or if you find any bug. :smiley:
+> **NOTE:** The function works well, but is still in progress. Feel free to contact me if you want to contribute or if you find any bugs. :smiley:
 > Upcoming updates :dancer::
 > * Work with any browser
 > * Specify the name of the output file
