@@ -49,4 +49,4 @@ The file **ListVariablesAndDescriptions.md** contins some variables with their d
 > **NOTE:** The function works well, but is still in progress. Feel free to contact me if you want to contribute or if you find any bug.
 
 ## Contact
-You can contact me at emixi-sthefany.valdez-medina.1@ulaval.ca :e-mail::simple_smile:
+You can contact me at emixi-sthefany.valdez-medina.1@ulaval.ca :e-mail: :simple_smile:
