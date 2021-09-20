@@ -74,7 +74,7 @@ def download_IDEAM(DepartmetInfo, inputs):
     # End Date  
     Input_data('//*[@id="datepicker1"]', 'datepicker1',EndDate)
     
-    # Loop by Departamento and Municipio
+    # Loop by "Departamento" and "Municipio"
     for iDepartment in DepartmetInfo:
         
         for iMunicipio in DepartmetInfo[iDepartment]:
