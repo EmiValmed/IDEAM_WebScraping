@@ -7,6 +7,11 @@ This repository contains files with Python-code used to web scrapping hydroclima
   * For chrome click [here](https://chromedriver.chromium.org/home).
   * For Mozilla click [here](https://firefox-source-docs.mozilla.org/testing/geckodriver/).
  
+ **NOTE:** these functions are written to work with Chrome. In case of using another browser, it is necessary to change the specifications of the following lines:
+  * Line 23    : change the WebDriver's name (**from** *chrome_path = r"C:\path of the\chromedriver.exe"* **to** *Firefox_path = r"C:\path of the\geckodriver.exe"*, for example)
+  * Lines 26-30: **from** chrome_options **to** Firefox_options
+  * Line 54    : **from** driver = webdriver.Chrome(chrome_path, chrome_options = chrome_options **to** driver = webdriver.Firefox(Firefox_path, options=Firefox_options)
+ 
 - **An Excel file** with the following columns:
 
  | **CODIGO** | **DEPARTAMENTO** | **MUNICIPIO** |
