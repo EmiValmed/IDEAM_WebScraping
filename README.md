@@ -18,7 +18,7 @@ This repository contains files with Python-code used to download hydroclimate hi
 
  | **CODIGO** | **DEPARTAMENTO** | **MUNICIPIO** |
  | -------| ------------ |-----------|
- | Conten |    Conten    |   Conten  | 
+ | Content |    Content    |   Content  | 
 
 The input document extension must be in .xls or .xlsx. The file name must follow the format: **DD-MM-YYYYY_DD-MM-YYYYY_VARIABLE_Description.xls**.
 
@@ -32,15 +32,15 @@ The input document extension must be in .xls or .xlsx. The file name must follow
  * This file does not necessarily have to be in the same folder as the functions.
  * All the information on the website is in Spanish, be sure to write the variable names and their description correctly. Otherwise, the program will display an error.  
  * You must have an .xls file for each description. The website is configured to select one description and variable at a time, so the name of the Excel file should only contain one.
-       Incorrects: 16-02-2020_17-02-2020_PRECIPITACION_Día pluviométrico_Precipitación total diaria.xls
+       > Incorrects: 16-02-2020_17-02-2020_PRECIPITACION_Día pluviométrico_Precipitación total diaria.xls
                     16-02-2020_17-02-2020_PRECIPITACION_CAUDAL_Día pluviométrico_Caudal medio diario.xls
  * Only ten inquiries can be made per request. Therefore, the number of stations in the Excel document should not exceed this amount.
  
 ## Functions
 
-**MainIDEAM.py**     : this is the only function to run. It prepares the inputs to extract the data from the website using the Excel document detailed above. This function does not need to be modified. 
+**MainIDEAM.py**. This is the only function to execute. It prepares the inputs to extract the data from the website using the Excel document detailed above. This function does not need to be modified. 
 
-**IDEAM_extract.py** : in this function, you must specify the output path and where the WebDriver is located (lines 22-23)
+**IDEAM_extract.py**. In this function, you must specify the output path and where the WebDriver is located (lines 22-23)
 
 ## List of varibales and descriptors
 The file **ListVariablesAndDescriptions.md** contains some variables with their descriptions. If you are interested in other variables, you can visit the [IDEAM](http://dhime.ideam.gov.co/atencionciudadano/) website and check the different options. 
