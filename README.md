@@ -3,7 +3,13 @@
 This repository contains files with Python-code used to web scrapping hydroclimate data from the IDEAM (Instituto de Hidrología, Meteorología y Estudios Ambientales), Colombia. The following gives a brief description of the individual files and how to use them.
 
 # Required files
-
+- A WebDriver: to drive a browser natively. This tool allow us automated testing of webapps across many browsers. It provides capabilities for navigating to web pages, user input, JavaScript execution, and more. Be sure to download the version that is compatible with your browser.
+  * For chrome visit : https://chromedriver.chromium.org/home
+  * For Mozilla visit: https://firefox-source-docs.mozilla.org/testing/geckodriver/
+- An Excel files with the following columns:
+ | CODIGO | DEPARTAMENTO | MUNICIPIO |
+ | -------| ------------ |-----------|
+ | Conten |    Conten    |   Conten  | 
 
 
 # Functions
@@ -22,7 +28,7 @@ DD-MM-YYYY_DD-MM-YYYY_VARIABLE_Description.xls
 A continuación las variablescon cada una de las descripciones existentes en el sitio web. Nota: es importante que la variable y la descripción estén escritas tal y como se indica en la lista, de lo contrario provocaría un error. 
 
 
-# Variables 
+# Variables and description
 * CAUDAL
   * Caudal máximo diario
   * Caudal medio diario
