@@ -32,8 +32,8 @@ The input document extension must be in .xls or .xlsx. The file name must follow
  * This file does not necessarily have to be in the same folder as the functions.
  * All the information on the website is in Spanish, be sure to write the variable names and their description correctly. Otherwise, the program will display an error.  
  * You must have an .xls file for each description. The website is configured to select one description and variable at a time, so the name of the Excel file should only contain one.  Incorrects:
-   
-                 16-02-2020_17-02-2020_PRECIPITACION_Día pluviométrico_Precipitación total diaria.xls  :no_good:
+   :no_good:
+                 16-02-2020_17-02-2020_PRECIPITACION_Día pluviométrico_Precipitación total diaria.xls  
                  16-02-2020_17-02-2020_PRECIPITACION_CAUDAL_Día pluviométrico_Caudal medio diario.xls 
  * Only ten inquiries can be made per request. Therefore, the number of stations in the Excel document should not exceed this amount.
  
@@ -48,9 +48,9 @@ The file **ListVariablesAndDescriptions.md** contains some variables with their 
 
 ***
 > **NOTE:** The function works well, but is still in progress. Feel free to contact me if you want to contribute or if you find any bug. :smiley:
-> Upcoming updates :no_good::
-* Work with any browser
-* Specify the name of the output file
+> Upcoming updates :dancer::
+> * Work with any browser
+> * Specify the name of the output file
 
 ## Contact
 You can contact me at emixi-sthefany.valdez-medina.1@ulaval.ca :e-mail: 
