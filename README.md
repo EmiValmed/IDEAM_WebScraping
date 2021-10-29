@@ -3,7 +3,7 @@
 This repository contains files with Python-code used to download hydroclimate historical series from the [IDEAM](http://dhime.ideam.gov.co/atencionciudadano/) (Instituto de Hidrología, Meteorología y Estudios Ambientales), Colombia. The following gives a brief description of the individual files:
 
 ## Required files
-- **A WebDriver** to drive a browser natively. This tool allows us automated testing of webapps across many browsers. It provides capabilities for navigating to web pages, user input, JavaScript execution, and more. Be sure to download the version that is compatible with your browser.
+- **A WebDriver** to drive a browser natively. This tool allows automated testing of webapps across many browsers. It provides capabilities for navigating to web pages, user input, JavaScript execution, and more. Be sure to download the version that is compatible with your browser.
 
   * For Chrome, click [here](https://chromedriver.chromium.org/home).
   * For Mozilla, click [here](https://firefox-source-docs.mozilla.org/testing/geckodriver/).
